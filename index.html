@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Membuat Motor Beat Keren</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container" id="bike">
+            <nav>
+                <img src="logop.png" class="Logo">
+
+                <ul>
+                    <li><a href="#Home">home</a></li>
+                    <li><a href="#Pilihan">Pilihan Warna</a></li>
+                    <li><a href="#lifestyle">Pesanan</a></li>
+                    
+            </nav>
+        <div class="content">
+            <h2>Motor</h2>
+            <h1>BMW</h1>
+            <p>Pas banget dipakai untuk aktifitas harian. Varian warna spesial ini dipersembahkan khusus untuk BroSis. Yuk buruan ke Store Yamaha sekarang juga!</p>
+            <h3>Pilih Warna </h3>
+            <div class="colour-select">
+                <div id="red"></div>
+                <div id="blue"></div>
+                <div id="black"></div>
+            </div>
+        </div>
+        </div>
+        
+        <script>
+            let redBtn = document.getElementById("red");
+            let blueBtn = document.getElementById("blue");
+            let blackBtn= document.getElementById("black");
+            let bike = document.getElementById("bike");
+
+            redBtn.onclick = function(){
+                bike.style.backgroundImage = "url(BMW1.png)";
+            }
+               blueBtn.onclick = function(){
+                bike.style.backgroundImage = "url(BMW2.png)";
+                }
+               blackBtn.onclick = function(){
+                bike.style.backgroundImage = "url(BMW3.png)";
+            }
+            </script>
+            <div class="content">
+                <h3>Pilihan Warna</h3>
+            </div>
+           <nav>
+            <img src="BMW1.png"  width="100%" height="80%">
+           </nav>
+           <nav>
+            <img src="BMW1.png"  width="100%" height="80%">
+           </nav>
+           <nav>
+            <img src="BMW1.png"  width="100%" height="80%">
+           </nav>
+    </body>
+</html>
